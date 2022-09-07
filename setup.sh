@@ -19,15 +19,15 @@ mkdir /etc/v2ray
 mkdir /var/lib/premium-script;
 mkdir /var/lib/crot-script;
 clear
-wget https://raw.githubusercontent.com/joysmart/KUAT2/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/scriptadamcrew/testsc/main/cf.sh && chmod +x cf.sh && ./cf.sh
 echo '============================================='
 echo '        Installing SSH & OPENVPN '
 echo '============================================='
-wget https://raw.githubusercontent.com/joysmart/KUAT2/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/scriptadamcrew/testsc/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 echo '============================================='
 echo '        Installing ssr '
 echo '============================================='
-wget https://raw.githubusercontent.com/joysmart/KUAT2/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://raw.githubusercontent.com/scriptadamcrew/testsc/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 echo '============================================='
 echo '        Installing shadowsocksobfs '
 echo '============================================='
@@ -35,20 +35,20 @@ wget https://raw.githubusercontent.com/joysmart/KUAT2/main/sodosok.sh && chmod +
 echo '============================================='
 echo '        Installing WIREGUARD '
 echo '============================================='
-wget https://raw.githubusercontent.com/joysmart/KUAT2/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://raw.githubusercontent.com/scriptadamcrew/testsc/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 echo '============================================='
 echo '        Installing V2RAY '
 echo '============================================='
-wget https://raw.githubusercontent.com/joysmart/KUAT2/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/scriptadamcrew/testsc/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 echo '============================================='
 echo '        Installing Websocket '
 echo '============================================='
-wget https://raw.githubusercontent.com/joysmart/KUAT2/main/websocket/ws.sh
+wget https://raw.githubusercontent.com/scriptadamcrew/testsc/main/websocket/ws.sh
 chmod +x ws.sh
 ./ws.sh 
 echo '============================================='
 echo '              install Ohp'
-wget https://raw.githubusercontent.com/joysmart/KUAT2/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/scriptadamcrew/testsc/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 echo '============================================='
 
 rm -f /root/websocket.sh
