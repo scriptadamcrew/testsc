@@ -5,7 +5,7 @@ LIGHT='\033[0;37m'
 NC='\e[0m'
 CYAN='\e[36m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Script By joysmart"
+echo "Script By Nakata143"
 clear
 echo -e "\e[94m  ══════════════════════════════════════════════════════"
 echo -e "\e[94m                 Script Vps For Debian N Ubuntu    "
