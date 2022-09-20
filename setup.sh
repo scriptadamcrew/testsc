@@ -31,7 +31,7 @@ wget https://raw.githubusercontent.com/scriptadamcrew/testsc/main/ssr.sh && chmo
 echo '============================================='
 echo '        Installing shadowsocksobfs '
 echo '============================================='
-wget https://raw.githubusercontent.com/joysmart/KUAT2/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://raw.githubusercontent.com/scriptadamcrew/testsc/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 echo '============================================='
 echo '        Installing WIREGUARD '
 echo '============================================='
