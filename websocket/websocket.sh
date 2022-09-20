@@ -12,10 +12,10 @@ cd
 cd /etc/systemd/system/
 
 #Install system auto run
-wget -O /etc/systemd/system/ws-ssh.service https://raw.githubusercontent.com/joysmart/KUAT2/main/websocket/ws-ssh.service && chmod +x /etc/systemd/system/ws-ssh.service
-wget -O /etc/systemd/system/ws-dropbear.service https://raw.githubusercontent.com/joysmart/KUAT2/main/websocket/ws-dropbear.service && chmod +x /etc/systemd/system/ws-dropbear.service
-wget -O /etc/systemd/system/ws-ovpn.service https://raw.githubusercontent.com/joysmart/KUAT2/main/websocket/ws-ovpn.service && chmod +x /etc/systemd/system/ws-ovpn.service
-wget -O /etc/systemd/system/ws-stunnel.service https://raw.githubusercontent.com/joysmart/KUAT2/main/websocket/ws-stunnel.service && chmod +x /etc/systemd/system/ws-stunnel.service
+wget -O /etc/systemd/system/ws-ssh.service https://raw.githubusercontent.com/scriptadamcrew/testsc/main/websocket/ws-ssh.service && chmod +x /etc/systemd/system/ws-ssh.service
+wget -O /etc/systemd/system/ws-dropbear.service https://raw.githubusercontent.com/scriptadamcrew/testsc/main/websocket/ws-dropbear.service && chmod +x /etc/systemd/system/ws-dropbear.service
+wget -O /etc/systemd/system/ws-ovpn.service https://raw.githubusercontent.com/scriptadamcrew/testsc/main/websocket/ws-ovpn.service && chmod +x /etc/systemd/system/ws-ovpn.service
+wget -O /etc/systemd/system/ws-stunnel.service https://raw.githubusercontent.com/scriptadamcrew/testsc/main/websocket/ws-stunnel.service && chmod +x /etc/systemd/system/ws-stunnel.service
 
 #Install Websocket-SSH
 wget -O /usr/local/bin/ws-ssh https://raw.githubusercontent.com/scriptadamcrew/testsc/main/websocket/ws-openssh.py && chmod +x /usr/local/bin/ws-ssh
